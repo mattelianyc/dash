@@ -18,7 +18,7 @@
 
       <div class="tile is-parent">
         <article class="tile is-child box">
-          <p class="title">June 3, 2018 </p>
+          <p class="title">{{ new Date() | moment("dddd, MMMM Do YYYY") }}</p>
           <router-link :to="{ name: 'home' }">Home</router-link>
         </article>
       </div>
